@@ -10,6 +10,6 @@
 ## Network Interfaces
 Lihat file `interfaces-node1.txt`
 
-##Storage
+## Storage
 - local
 - local-lvm
