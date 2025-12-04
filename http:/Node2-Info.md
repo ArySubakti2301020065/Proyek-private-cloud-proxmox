@@ -1,4 +1,4 @@
-# Konfigurasi Node 1
+# Konfigurasi Node 2
  
 *Hostname:* blckpink02  
 *IP Address:* 192.168.137.11  
