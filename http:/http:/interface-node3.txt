@@ -1,0 +1,24 @@
+# Interface Configuration - Node 3
+
+## Output from ip a
+
+### 1. Loopback
+lo:
+  - inet: 127.0.0.1/8
+  - inet6: ::1/128
+
+### 2. nic0 (Physical interface)
+nic0:
+  - MAC: 08:00:27:f8:ae:0f
+  - Status: UP
+
+### 3. vmbr0 (Proxmox Bridge)
+vmbr0:
+  - MAC: 08:00:27:f8:ae:0f
+  - inet: 192.168.137.12/24
+  - Status: UP
+  - Bridge: default Proxmox bridge
+
+## Notes
+- vmbr0 adalah interface yang dipakai Proxmox Web GUI.
+- IP 192.168.137.12 sesuai dengan konfigurasi instalasi.
